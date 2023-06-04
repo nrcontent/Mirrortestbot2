@@ -1,13 +1,13 @@
 
 # REQUIRED CONFIG
-BOT_TOKEN = "6271492566:AAHGMfOgSiyrFnFjvDmBaJcnF2zEIb067Y0"
-GDRIVE_FOLDER_ID = ""
+BOT_TOKEN = "5993638184:AAH8V__2tB2f4t2OyyYheZY4kf4cN6PrQ1Q"
+GDRIVE_FOLDER_ID = "1BKulZfP7glOEzF1vHKkEHwonsEg_pGoR"
 OWNER_ID = "6187172993"
 DOWNLOAD_DIR = "/usr/src/app/downloads"
 DOWNLOAD_STATUS_UPDATE_INTERVAL = 20
 AUTO_DELETE_MESSAGE_DURATION = 60       
 AUTO_DELETE_UPLOAD_MESSAGE_DURATION = -1  #minimum recommended 120
-IS_TEAM_DRIVE = ""
+IS_TEAM_DRIVE = "True"
 TELEGRAM_API = "29578135"
 TELEGRAM_HASH = "0706e39b4922f43d5cb4ea5dfb707190"
 
@@ -16,19 +16,19 @@ DATABASE_URL = "postgres://vbjzszbo:xxmgnuRttgH6Z_8EaPC_3MmTj-p1vqgP@arjuna.db.e
 AUTHORIZED_CHATS = "-1001914037396"
 SUDO_USERS = "6187172993"
 IGNORE_PENDING_REQUESTS = ""
-USE_SERVICE_ACCOUNTS = ""
-INDEX_URL = "https://lastattemptdxbot.herokuapp.com"
+USE_SERVICE_ACCOUNTS = "True"
+INDEX_URL = "https://sevenryninettemptdxbot.herokuapp.com"
 STATUS_LIMIT = "2" #recommended value 2
 STOP_DUPLICATE = "False"
-CMD_INDEX = "z"
-UPTOBOX_TOKEN = "False"
-TORRENT_TIMEOUT = "False"
-EXTENSION_FILTER = "False"
-INCOMPLETE_TASK_NOTIFIER = "False"
+CMD_INDEX = "u"
+UPTOBOX_TOKEN = "True"
+TORRENT_TIMEOUT = "True"
+EXTENSION_FILTER = "True"
+INCOMPLETE_TASK_NOTIFIER = "True"
 
 #TURN ON/OFF FUCTIONS
 LEECH_ENABLED = "True"              #Default is False (only use by owner/sudo) Make it True (for authorized chats)
-MIRROR_ENABLED = "False"             #Default is False (only use by owner/sudo) Make it True (for authorized chats)
+MIRROR_ENABLED = "True"             #Default is False (only use by owner/sudo) Make it True (for authorized chats)
 WATCH_ENABLED = "True"              #Default is False (only use by owner/sudo) Make it True (for authorized chats)
 CLONE_ENABLED = "True"              #Default is False (only use by owner/sudo) Make it True (for authorized chats)
 ANILIST_ENABLED = "True"            #Default is False (only use by owner/sudo) Make it True (for authorized chats)
